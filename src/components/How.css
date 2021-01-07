@@ -1,0 +1,27 @@
+.how-section {
+  background-color: #0a183d;
+}
+
+.how-item .hi-icon {
+  position: relative;
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  background: #fc0254;
+  margin-bottom: 25px;
+}
+
+.how-item .hi-icon img {
+  position: absolute;
+  right: -8px;
+  bottom: 0;
+}
+
+.how-item h4 {
+  margin-bottom: 25px;
+}
+
+.how-item p {
+  font-weight: 400;
+  opacity: 0.6;
+}

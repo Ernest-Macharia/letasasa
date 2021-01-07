@@ -1,0 +1,117 @@
+.hero-section {
+  overflow: hidden;
+}
+
+.hs-item {
+  height: 724px;
+  padding-bottom: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #0a183d;
+}
+
+.hs-item h2 {
+  color: #fff;
+  font-size: 70px;
+  margin-bottom: 25px;
+  line-height: 0.9;
+  position: relative;
+  top: 50px;
+  opacity: 0;
+}
+
+.hs-item h2 span {
+  color: #fc0254;
+}
+
+.hs-item p {
+  color: #ffffff;
+  opacity: 0.6;
+  margin-bottom: 50px;
+  position: relative;
+  top: 50px;
+  opacity: 0;
+}
+
+.hs-item .site-btn {
+  position: relative;
+  top: 50px;
+  margin-bottom: 20px;
+  opacity: 0;
+}
+
+.hs-item .sb-c2 {
+  margin-left: 8px;
+}
+
+.hs-item .hs-text {
+  padding-top: 90px;
+  max-width: 475px;
+}
+
+.hr-img img {
+  min-width: 602px;
+  position: relative;
+  left: -34px;
+  top: 50px;
+  opacity: 0;
+}
+
+.owl-item.active .hs-item img,
+.owl-item.active .hs-item h2,
+.owl-item.active .hs-item p,
+.owl-item.active .hs-item .site-btn,
+.owl-item.active .hs-item .site-btn.sb-c2 {
+  top: 0;
+  opacity: 1;
+}
+
+.owl-item.active .hs-item img {
+  -webkit-transition: all 0.5s ease 0.2s;
+  transition: all 0.5s ease 0.2s;
+}
+
+.owl-item.active .hs-item h2 {
+  -webkit-transition: all 0.5s ease 0.4s;
+  transition: all 0.5s ease 0.4s;
+}
+
+.owl-item.active .hs-item p {
+  -webkit-transition: all 0.5s ease 0.6s;
+  transition: all 0.5s ease 0.6s;
+}
+
+.owl-item.active .hs-item .site-btn {
+  -webkit-transition: all 0.5s ease 0.8s;
+  transition: all 0.5s ease 0.8s;
+}
+
+.owl-item.active .hs-item .site-btn.sb-c2 {
+  -webkit-transition: all 0.5s ease 1s;
+  transition: all 0.5s ease 1s;
+}
+
+.hero-slider .owl-dots {
+  position: absolute;
+  bottom: 33px;
+  left: calc(50% - 588px);
+  max-width: 1176px;
+  width: 100%;
+  padding-left: 15px;
+}
+
+.hero-slider .owl-dots .owl-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #383b70;
+  margin-right: 10px;
+}
+
+.hero-slider .owl-dots .owl-dot.active {
+  background: #fc0254;
+}

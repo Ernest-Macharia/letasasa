@@ -1,0 +1,44 @@
+.subscription-section {
+  background: #0a183d;
+}
+
+.sub-text {
+  padding-right: 15px;
+}
+
+.sub-text h2 {
+  color: #fff;
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.sub-text h3 {
+  color: #fc0254;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.sub-text p {
+  color: #fff;
+  font-weight: 400;
+  opacity: 0.6;
+  margin-bottom: 40px;
+}
+
+.sub-list {
+  list-style: none;
+  background: #1c294a;
+  padding: 70px 15px 50px 155px;
+  border-radius: 42px;
+}
+
+.sub-list li {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.sub-list li img {
+  padding-right: 28px;
+}
